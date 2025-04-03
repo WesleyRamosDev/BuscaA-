@@ -29,9 +29,4 @@ O algoritmo A* equilibra eficiência e otimalidade, combinando a distância perc
 
 **Desvantagens:**  
 ❌ Maior uso de memória e processamento  
-❌ Pode ser mais lento dependendo do problema  
-
-## 🚀 Tecnologias Utilizadas  
-- Python 🐍  
-- Algoritmos de Busca 🤖  
-- Estruturas de Dados (Grafos) 🌐  
+❌ Pode ser mais lento dependendo do problema   
