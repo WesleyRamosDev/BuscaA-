@@ -35,8 +35,3 @@ O algoritmo A* equilibra eficiência e otimalidade, combinando a distância perc
 - Python 🐍  
 - Algoritmos de Busca 🤖  
 - Estruturas de Dados (Grafos) 🌐  
-
-## 📌 Como Usar  
-
-### 1️⃣ Clone este repositório  
-```sh
