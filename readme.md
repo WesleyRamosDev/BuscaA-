@@ -1,24 +1,42 @@
-# Busca Gulosa e A*
+# 🗺️ Busca Gulosa e Busca A* - Mapa de Curitiba  
 
-**Aluno:** Wesley Santos Ramos  
-**RA:** 010623062  
+Aluno: **Wesley Santos Ramos**  
+RA: **010623062**  
 
-## Introdução
-Na **Busca Gulosa**, optamos pelo caminho aparentemente mais promissor no presente momento, sem considerar passado ou futuro. É como se você tomasse decisões baseadas apenas na informação imediata, seguindo o caminho mais rápido à solução, **"Só vai e Confia"**.
+Este projeto implementa os algoritmos de **Busca Gulosa** e **Busca A*** para encontrar a menor rota entre cidades do Paraná, utilizando um grafo ponderado.  
 
-Já o **Algoritmo A*** age como um guia inteligente, explorando outros caminhos, priorizando estados promissores com base em uma combinação de custo acumulado e estimativa heurística, equilibrando eficiência e otimalidade.
+## 🧠 Pesquisa: Busca Gulosa vs. Busca A*  
 
-## Comparação Entre os Algoritmos
+### 🔹 Busca Gulosa  
+A Busca Gulosa escolhe sempre o caminho que parece mais promissor no momento, sem considerar o custo total. Seu critério de escolha é baseado apenas na **distância heurística** até o destino.  
 
-| Algoritmo  | Característica  | Custo Considerado  | Melhor Aplicação  |
-|------------|----------------|--------------------|------------------|
-| **Busca Gulosa** | Expande o nó que parece estar mais próximo do objetivo | Usa heurística h(n) | Busca rápida, mas pode não ser ótima |
-| **A*** | Considera o custo do caminho já percorrido | Usa g(n) + h(n) | Melhor caminho considerando custo |
+**Vantagens:**  
+✔️ Rápida execução  
+✔️ Simples de implementar  
 
-## Conclusão
-- **Busca Gulosa**: mais rápida, mas pode não ser o caminho mais eficiente.  
-- **A***: equilibra custo e eficiência, garantindo um caminho ótimo.  
+**Desvantagens:**  
+❌ Pode levar a soluções não ótimas  
+❌ Não considera o custo total do caminho  
 
----
+### 🔹 Busca A*  
+O algoritmo A* equilibra eficiência e otimalidade, combinando a distância percorrida até o momento (**g(n)**) com a estimativa heurística do custo restante (**h(n)**). Ele busca sempre o caminho com o menor custo total estimado:  
 
-*Esse projeto implementa ambos os algoritmos para encontrar rotas em um mapa!* 🚀
+> **f(n) = g(n) + h(n)**  
+
+**Vantagens:**  
+✔️ Garante encontrar o caminho mais curto  
+✔️ Considera o custo real e a heurística  
+
+**Desvantagens:**  
+❌ Maior uso de memória e processamento  
+❌ Pode ser mais lento dependendo do problema  
+
+## 🚀 Tecnologias Utilizadas  
+- Python 🐍  
+- Algoritmos de Busca 🤖  
+- Estruturas de Dados (Grafos) 🌐  
+
+## 📌 Como Usar  
+
+### 1️⃣ Clone este repositório  
+```sh
